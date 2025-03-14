@@ -19,7 +19,36 @@ int main() {
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
     printf("Desafio Super Trunfo! \n");
+
+    char estado;
+    char codigo[4];
+    char nomecidade[50];
+    int populacao, pontosturisticos;
+    float area, pib;
+
+    printf("Carta 1\n");
+
+    printf("\nDigite o estado: \n");
+    scanf("%s", &estado);
+
+    printf("\nDigite o código da carta: \n");
+    scanf("%s", &codigo);
+
+    printf("\nDigite o nome da cidade: \n");
+    getchar(); // Limpa buffer
+    scanf("%s\n", &nomecidade);
     
 
+
+    printf("Digite a população: \n");
+
+
+    
+
+
+
     return 0;
+
+
 }
+
