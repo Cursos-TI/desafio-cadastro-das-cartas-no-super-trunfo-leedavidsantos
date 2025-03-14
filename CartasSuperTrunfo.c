@@ -35,12 +35,13 @@ int main() {
     scanf("%s", &codigo);
 
     printf("\nDigite o nome da cidade: \n");
-    getchar(); // Limpa buffer
     scanf("%s\n", &nomecidade);
     
 
 
     printf("Digite a população: \n");
+    scanf("%d", &populacao);
+    
 
 
     
